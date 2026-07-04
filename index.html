@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Site d'apprentissage</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Bienvenue sur mon site d'apprentissage</h1>
+
+    <p>Ce site va m'aider à apprendre le développement web étape par étape.</p>
+
+<h2>Mini interaction</h2>
+
+<p id="message">Clique sur le bouton pour changer ce texte</p>
+
+<button onclick="changerTexte()">Clique ici</button>
+    <button onclick="resetTexte()">Réinitialiser</button>
+
+<h1>To-Do List</h1>
+
+<input type="text" id="taskInput" placeholder="Ajouter une tâche">
+<button onclick="addTask()">Ajouter</button>
+
+<ul id="taskList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
